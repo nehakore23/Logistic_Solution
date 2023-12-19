@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back11"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logistics"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="211dp"
+        android:layout_weight="1"
+        android:src="@drawable/ulogo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:id="@+id/shipment"
+            android:layout_width="193dp"
+            android:layout_height="149dp"
+            android:background="@color/colorAccent"
+            android:text="Scheduled Shipment"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/viewship"
+            android:layout_width="193dp"
+            android:layout_height="149dp"
+            android:background="@color/colorPrimary"
+            android:text="VIEW SHIPMENT"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/editprofile"
+            android:layout_width="193dp"
+            android:layout_height="149dp"
+            android:background="@color/colorPrimary"
+            android:text="EDIT PROFILE"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/viewstock"
+            android:layout_width="193dp"
+            android:layout_height="149dp"
+            android:background="@color/colorAccent"
+            android:text="View Stock"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#5E35B1"
+        android:textColor="#ffffff"
+        android:text="LogOut" />
+</LinearLayout>

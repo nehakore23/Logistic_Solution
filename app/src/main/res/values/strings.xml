@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MessFinder</string>
+    <string-array name="role">
+        <item>Driver</item>
+        <item>Company</item>
+       <item>Warehouse</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/back11"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Logistics" />
+    <Button
+        android:id="@+id/approveuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5E35B1"
+        android:textColor="#ffffff"
+        android:layout_marginTop="120dp"
+        android:text="Approve User" />
+
+
+    <Button
+        android:id="@+id/confirmuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5E35B1"
+        android:textColor="#ffffff"
+        android:layout_marginTop="40dp"
+        android:text="View Confirm User" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#5E35B1"
+        android:textColor="#ffffff"
+        android:text="LogOut" />
+</LinearLayout>
